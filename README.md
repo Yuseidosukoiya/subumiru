@@ -1,7 +1,6 @@
 # subumiru2
 
 A new Flutter project.
-卓越するずるよー
 
 ## Getting Started
 
