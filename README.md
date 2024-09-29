@@ -2,6 +2,7 @@
 
 A new Flutter project.
 卓越するずるよー
+ずりんちゃんもいまーす！
 
 ## Getting Started
 
