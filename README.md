@@ -1,6 +1,7 @@
 # subumiru2
 
 A new Flutter project.
+かかかか
 
 ## Getting Started
 
