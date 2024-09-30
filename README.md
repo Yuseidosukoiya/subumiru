@@ -1,22 +1,20 @@
-# subumiru2
+# subumiru
 
-A new Flutter project.
-卓越するずるよー
+## 開発
+## パッケージの依存関係をyamlファイルに合わせる
+flutter pub get
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 便利機能
+## slackの使い方
+拡張機能のアプリとしてgithub,notion,figma and figjamを入れると便利（レビューの通知が来たりする）
 
-A few resources to get you started if this is your first Flutter project:
+##　vscode　の拡張機能
+・github copilotは最初めんどくさいかもだけど絶対入れる
+→コーディングには単純作業がつきものなので、AIが読み取ってやってくれるから作業効率UP
+→chatはゴミなんで（使わなくて）いいです
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-##使い方ガイド
+# 使い方ガイド
 【git pushコマンドの簡略化】
 git config --global --add --bool push.autoSetupRemote true
 を実行すると、git pushと打つだけで、git push origin HEADができます
