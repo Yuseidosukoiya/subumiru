@@ -1,0 +1,15 @@
+name: Assign Reviewers Automatically
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  assign_reviewers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign reviewers excluding author
+        uses: hmarr/auto-assign-action@v2.2.0
+        with:
+          reviewers: Yuseidosukoiya,sharkman021,terasutar
+          exclude-author: true
