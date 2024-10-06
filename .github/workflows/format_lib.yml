@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "text ci!!"
-    
-  format_dart:
+   format_dart:
     runs-on: ubuntu-latest
     steps:
       - name: Run dart format  # lib/ディレクトリ内のDartファイルを整形
