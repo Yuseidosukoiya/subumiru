@@ -1,0 +1,12 @@
+name: Format Dart Code
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+   test_ci:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "text ci!!"
