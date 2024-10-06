@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Subumiru2',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: 'NotoSansJP'
       ),
       home: const MyHomePage(title: 'Subumiru2 Home Page'),
     );
@@ -32,7 +33,11 @@ class MyHomePage extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          'Hello, Flutter!',
+          'サブミルのトップページだよ fontは700!',
+          style: TextStyle(
+            fontFamily: 'NotoSansJP',
+            fontWeight: FontWeight.w700,
+            ),
         ),
       ),
     );
