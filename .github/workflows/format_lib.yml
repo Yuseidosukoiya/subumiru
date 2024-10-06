@@ -1,0 +1,18 @@
+name: Format Dart Code
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+   test_ci:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "text ci!!"
+    
+  format_dart:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run dart format  # lib/ディレクトリ内のDartファイルを整形
+        run: dart format lib/ --set-exit-if-changed  # ファイルが整形されていない場合エラーを返す
