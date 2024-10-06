@@ -1,0 +1,17 @@
+name: Assign Reviewers
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  assign_reviewers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign reviewers
+        uses: hmarr/auto-approve-action@v2.1.0
+        with:
+          reviewers: |
+            @org/member1
+            @org/member2
+            # リストからプルリクエスト作成者を除外するロジックを追加
