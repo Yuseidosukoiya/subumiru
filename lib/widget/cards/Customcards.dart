@@ -1,4 +1,3 @@
-// lib/widgets/cards/custom_card.dart
 import 'package:flutter/material.dart';
 
 class CustomCard extends StatelessWidget {

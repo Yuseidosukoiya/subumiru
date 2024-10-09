@@ -1,7 +1,6 @@
-// lib/widgets/cards/cards_widgetbook.dart
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
-import 'custom_card.dart'; // カスタムカードをインポート
+import 'custom_card.dart'; 
 
 WidgetbookCategory getCardsCategory() {
   return WidgetbookCategory(
