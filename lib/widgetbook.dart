@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
-import 'widgets/cards/cards_widgetbook.dart';
-import 'widgets/buttons/buttons_widgetbook.dart';
-import 'widgets/texts/texts_widgetbook.dart';
+import 'widget/buttons/buttons.dart';
+import 'widget/cards/card.dart';
+import 'widget/texts/texts.dart';
+
 
 void main() {
   runApp(
