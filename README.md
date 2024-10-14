@@ -26,6 +26,10 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-## widgetbookの立ち上げ
+## ローカルポートの立ち上げ
+## main.dart
 flutter run lib/main.dart
 とすると、数字を選ぶ画面が出てくる（mac用やipad用ではないので、全員使えるchromeの"3"を使う）→mainのwidgetbookが立ち上げに成功
+
+## wighetbook
+flutter run lib/widgetbook.dart //一度に一つしか立ち上げられない
