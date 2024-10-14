@@ -1,7 +1,5 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'widget/buttons/buttons.dart';
-import 'widget/buttons/primaryButton.dart';
+import 'widget/buttons/primary_button.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,7 +27,7 @@ class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key, required this.title});
 
   void _onButtonPressed(BuildContext context) {
-    print("ボタンが押されました");
+    print('ボタンが押されました');
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text('ボタンが押されました')),
     );

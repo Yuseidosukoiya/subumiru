@@ -5,16 +5,15 @@ class PrimaryButton extends StatelessWidget {
   final String label;
 
   const PrimaryButton({
-    Key? key,
+    super.key,
     required this.onPressed,
     required this.label,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: onPressed,
-      child: Text(label),
       style: ElevatedButton.styleFrom(
         backgroundColor: Theme.of(context).primaryColor, 
         textStyle: const TextStyle(
@@ -23,6 +22,7 @@ class PrimaryButton extends StatelessWidget {
         ),
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
       ),
+      child: Text(label),
     );
   }
 }
