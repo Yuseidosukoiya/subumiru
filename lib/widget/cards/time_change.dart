@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 class TimeChangeWidget extends StatefulWidget {
   final double currentHours;
 
-  TimeChangeWidget({required this.currentHours});
+  const TimeChangeWidget({super.key, required this.currentHours});
 
   @override
-  _TimeChangeWidgetState createState() =>
-      _TimeChangeWidgetState();
+  // ignore: library_private_types_in_public_api
+  _TimeChangeWidgetState createState() => _TimeChangeWidgetState();
 }
 
 class _TimeChangeWidgetState extends State<TimeChangeWidget> {

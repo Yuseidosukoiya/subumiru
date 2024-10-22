@@ -4,8 +4,8 @@ class ProgressIndicatorWidget extends StatelessWidget {
   final double targetRate;
   final double targetHours;
 
-  ProgressIndicatorWidget(
-      {required this.targetRate, required this.targetHours});
+  const ProgressIndicatorWidget(
+      {super.key, required this.targetRate, required this.targetHours});
 
   @override
   Widget build(BuildContext context) {

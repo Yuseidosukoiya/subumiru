@@ -49,17 +49,18 @@ class ColumnCard extends StatelessWidget {
                 Icon(Icons.settings),
               ],
             ),
-            
+
             SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Flexible(
-                      child:ProgressIndicatorWidget(targetRate: targetRate, targetHours: targetHours),
-                    )
-                  ],
+              children: [
+                Flexible(
+                  child: ProgressIndicatorWidget(
+                      targetRate: targetRate, targetHours: targetHours),
+                )
+              ],
             ),
-            
+
             SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
