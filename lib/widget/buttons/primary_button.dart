@@ -15,7 +15,7 @@ class PrimaryButton extends StatelessWidget {
     return ElevatedButton(
       onPressed: onPressed,
       style: ElevatedButton.styleFrom(
-        backgroundColor: Theme.of(context).primaryColor, 
+        backgroundColor: Theme.of(context).primaryColor,
         textStyle: const TextStyle(
           fontFamily: 'NotoSansJP',
           fontWeight: FontWeight.w700,

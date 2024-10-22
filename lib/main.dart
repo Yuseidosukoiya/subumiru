@@ -52,10 +52,10 @@ class MyHomePage extends StatelessWidget {
               ),
               textAlign: TextAlign.center,
             ),
-            const SizedBox(height: 20), 
+            const SizedBox(height: 20),
             PrimaryButton(
               onPressed: () => _onButtonPressed(context),
-              label: 'Button', 
+              label: 'Button',
             ),
           ],
         ),
